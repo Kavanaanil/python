@@ -12,3 +12,6 @@ x=plt.show()
 st.title("Age of people to their income")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.pyplot(x)
+
+
+# URL: https://python-mwlhmqrmzvhfwtbzbre5vv.streamlit.app/
