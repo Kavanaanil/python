@@ -6,11 +6,13 @@ import streamlit as st
 
 drop=st.selectbox("What type of plot to choose?",options=("ScatterPlot","BarPlot","BoxPlot","LinePlot","HistPlot"),index=0,help="Choose a plot option in dropdown")
 st.write("You chose", drop,"Chart")
+st.write("Here is my first attempt to use streamlit")
+st.title("Sample Plots Example")
 
 df1=pd.read_csv("Fish.csv")
 df1
 if drop=="ScatterPlot":
-    st.write("Here is my first attempt to use streamlit")
+    
     
     x=list(df1.iloc[:,1])
     y=list(df1.iloc[:,6])
@@ -19,7 +21,7 @@ if drop=="ScatterPlot":
     plt.ylabel('Width')
     plt.title('Weight to Width of species')
     ScatterPlot=plt.show()
-    st.title("Plots Example")
+    
     st.set_option('deprecation.showPyplotGlobalUse', False)
     st.pyplot(ScatterPlot)
     
