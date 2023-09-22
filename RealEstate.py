@@ -11,7 +11,7 @@ import streamlit as st
 
 # In[2]:
 
-
+st.write("Data looks like")
 df=pd.read_csv("Real_estate.csv")
 df
 
