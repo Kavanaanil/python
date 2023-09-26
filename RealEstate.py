@@ -30,7 +30,7 @@ x=plt.show()
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.pyplot(x)
 
-
+#URL: https://python-85ewtsul73f9hcwtrewmah.streamlit.app/
 # In[ ]:
 
 
